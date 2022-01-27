@@ -21,9 +21,17 @@ public class Exercicio5 {
 		System.out.println("Nota 3: ");
 		n3 = leia.nextDouble();
 		
-		media = (n1*2 + n2 * 3 + n3 * 5)/ (2+3+5);
+		if(n1 > 0 && n2 > 0 && n3 > 0 && n1 <= 10 && n2 <= 10 && n3 <= 10) {
 		
-		System.out.println("A média do aluno é: " + formatado.format(media));
+			media = (n1*2 + n2 * 3 + n3 * 5)/(2+3+5);
+			
+			System.out.println("A média do aluno é: " + formatado.format(media));
+		
+		}else {
+			
+			System.out.println("Você adicinou uma nota inválida, por favor revise!!");
+			
+		}
 		
 		leia.close();
 
