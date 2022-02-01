@@ -2,11 +2,10 @@ package br.com.generation.exercicio06;
 
 import java.util.Scanner;
 
-public class Conta{
+public class Conta extends Titular{
 
 	private String numero;
 	private String agencia;
-	Titular titular = new Titular();
 	private Integer tipoDeConta;
 	private Integer Saldo;
 	Scanner entrada = new Scanner(System.in);

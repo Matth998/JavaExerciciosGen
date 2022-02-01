@@ -37,13 +37,13 @@ public class Cliente {
 		System.out.print("Digite a agência da conta: ");
 		conta.setAgencia(entrada.nextLine());
 		System.out.print("Digite o nome do Titular da Conta: ");
-		conta.titular.setName(entrada.nextLine());
+		conta.setName(entrada.nextLine());
 		System.out.print("Digite o CPF do Titular da Conta: ");
-		conta.titular.setCpf(entrada.nextLine());
+		conta.setCpf(entrada.nextLine());
 		System.out.print("Digite o endereço do Titular da Conta: ");
-		conta.titular.setAndress(entrada.nextLine());
+		conta.setAndress(entrada.nextLine());
 		System.out.print("Digite o telefone do Titular da Conta: ");
-		conta.titular.setTelefone(Integer.parseInt(entrada.nextLine()));
+		conta.setTelefone(Integer.parseInt(entrada.nextLine()));
 		System.out.print("Digite o tipo de conta: [ 1 - Conta Corrente || 2 - Conta poupança ] ");
 		conta.setTipoDeConta(Integer.parseInt(entrada.nextLine()));
 		
@@ -53,10 +53,10 @@ public class Cliente {
 		
 		System.out.println("Número: " + conta.getNumero());
 		System.out.println("Agência: " + conta.getAgencia());
-		System.out.println("Nome do titular: " + conta.titular.getName());
-		System.out.println("CPF do tiular: " + conta.titular.getCpf());
-		System.out.println("Endereço do titular:" + conta.titular.getAndress());
-		System.out.println("Telefone do titular: " + conta.titular.getTelefone());
+		System.out.println("Nome do titular: " + conta.getName());
+		System.out.println("CPF do tiular: " + conta.getCpf());
+		System.out.println("Endereço do titular:" + conta.getAndress());
+		System.out.println("Telefone do titular: " + conta.getTelefone());
 		System.out.println("Tipo de conta: " + conta.getTipoDeConta());
 		System.out.println();
 		
