@@ -11,7 +11,7 @@ public class Cliente {
 		
 		logo();
 		cadastroCliente(conta, entrada);
-		
+
 		confirmaLogo();
 		confirmaDados(conta);
 		

@@ -2,7 +2,7 @@ package br.com.generation.exercicio06;
 
 import java.util.Scanner;
 
-public class Conta extends Titular{
+public class Conta{
 
 	private String numero;
 	private String agencia;
