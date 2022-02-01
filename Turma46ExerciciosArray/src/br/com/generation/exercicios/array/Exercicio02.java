@@ -15,7 +15,7 @@ public class Exercicio02 {
 		
 		for(cont = 0; cont < dado.length; cont++) {
 		
-			num = gerador.nextInt(6);
+			num = gerador.nextInt(7);
 			
 			if(num != 0) {
 				
