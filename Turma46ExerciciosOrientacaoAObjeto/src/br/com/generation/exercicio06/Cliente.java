@@ -2,7 +2,7 @@ package br.com.generation.exercicio06;
 
 import java.util.Scanner;
 
-public class Cliente extends Titular {
+public class Cliente {
 
 	public static void main(String[] args) throws InterruptedException {
 		
